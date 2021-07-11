@@ -11,7 +11,7 @@ namespace AtmecsSample
         {
             foreach (var action in actions)
             {
-                await Task.Delay(1200);
+                await Task.Delay(1500);
                 await Task.Run(action);
                 Console.WriteLine($"Completed on thread:{Thread.CurrentThread.ManagedThreadId}");
             }

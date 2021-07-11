@@ -23,7 +23,6 @@ namespace AtmecsSample
 
             var obj = new CustomEventsClass();
             obj.RunActions(eventsList);
-
             Console.ReadKey();
         }
     }
